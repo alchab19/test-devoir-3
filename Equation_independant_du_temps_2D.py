@@ -81,6 +81,7 @@ for fact in fact_ar:
             if ((x<=Lm) or (x>=(Lx-Lm)) or (y<=Lm) or (y>=(Ly-Lm))):
                 # À l'intérieur du mur
                 k[i-1,j-1]=km;
+                print('test')
             else:
                 # À l'intérieurde de l'appartement
                 k[i-1,j-1]=ka;
